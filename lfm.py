@@ -51,7 +51,7 @@ while True:
                 state="by " + artist, 
                 large_image=album_art_url,
                 small_image='lastfm',
-                buttons=[{"label": f"Dill's Scrobbles: {total_scrobbles}", "url": song_page_url},
+                buttons=[{"label": f"Scrobbles: {total_scrobbles}", "url": song_page_url},
                          {"label": "View My Last.fm Profile", "url": profile_url}]
             )
     time.sleep(10)  # Check every 10 seconds
